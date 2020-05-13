@@ -1,6 +1,5 @@
 """This module adds utilities for coordinate boxes"""
 
-
 def merge_boxes(box1, box2):
   """Merges two boxes.
 
@@ -54,4 +53,3 @@ class CoordinateBox(object):
     self.x_range = x_range
     self.y_range = y_range
     self.z_range = z_range
-
